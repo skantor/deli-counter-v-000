@@ -8,8 +8,8 @@ def line(deli)
     puts "The line is currently empty."
   else 
     new_deli = []
+    index = 1 
     deli.each do |name|
-      index = 1
       person = "#{index}. #{name}"
       index = index + 1
       new_deli << person
