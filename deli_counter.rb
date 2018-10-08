@@ -9,7 +9,7 @@ def line(deli)
   else 
     num = deli.length
     new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
-    puts "The line is currently: #{new}."
+    puts "The line is currently: #{new}"
   end 
 end
 
