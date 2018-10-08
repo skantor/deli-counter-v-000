@@ -18,12 +18,11 @@ def take_a_number(deli,person)
   deli = deli << "#{person}"
 end 
 
-def now_serving(katz_deli)
-  if katz_deli == []
+def now_serving(deli)
+  if deli == []
     puts "There is nobody waiting to be served!"
   else
-    person = katz_deli[0]
-    "Currently serving #{person}."
-    katz_deli.shift 
+    "Currently serving #{deli[0]}."
+    deli.shift 
   end
 end 
