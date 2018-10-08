@@ -8,6 +8,10 @@ def line(deli)
     puts "The line is currently empty."
   else 
     num = deli.length
+    new_deli = []
+    deli.each do |name|
+      index = 
+      person = 
     new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
     puts "The line is currently: #{deli}"
   end 
