@@ -5,10 +5,10 @@ katz_deli = []
 def take_a_number(deli,person)
   num = deli.length + 1
   puts "Welcome, #{person}. You are number #{num} in line."
-  deli = katz_deli << "#{person}"
+  deli = deli << "#{person}"
 end 
 
-def line(katz_deli)
+def line(deli)
   num = katz_deli.length+1
   if katz_deli == []
     puts "The line is currently empty."
