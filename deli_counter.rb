@@ -2,12 +2,6 @@
 
 katz_deli = []
 
-def take_a_number(deli,person)
-  num = deli.length + 1
-  puts "Welcome, #{person}. You are number #{num} in line."
-  deli = deli << "#{person}"
-end 
-
 def line(deli)
   num = deli.length+1
   if deli == []
@@ -15,6 +9,12 @@ def line(deli)
   else 
     "The line is currently #{deli}."
   end 
+end
+
+def take_a_number(deli,person)
+  num = deli.length + 1
+  puts "Welcome, #{person}. You are number #{num} in line."
+  deli = deli << "#{person}"
 end 
 
 def now_serving(katz_deli)
