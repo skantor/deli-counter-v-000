@@ -7,7 +7,6 @@ def line(deli)
   if deli == []
     puts "The line is currently empty."
   else 
-    num = 1..(deli.length+1)
     new_deli = []
     deli.each do |name|
       index = 1
