@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def take_a_number(katz_deli,person)
+def take_a_number(deli,person)
   num = katz_deli.length + 1
   puts "Welcome, #{person}. You are number #{num} in line."
   katz_deli = katz_deli << "#{person}"
