@@ -9,8 +9,8 @@ def take_a_number(deli,person)
 end 
 
 def line(deli)
-  num = katz_deli.length+1
-  if katz_deli == []
+  num = deli.length+1
+  if deli == []
     puts "The line is currently empty."
   else 
     "The line is currently #{katz_deli}."
