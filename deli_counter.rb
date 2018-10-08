@@ -7,7 +7,7 @@ def line(deli)
   if deli == []
     puts "The line is currently empty."
   else 
-    "The line is currently #{deli}."
+    puts "The line is currently #{deli}."
   end 
 end
 
