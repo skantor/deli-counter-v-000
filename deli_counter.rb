@@ -10,8 +10,9 @@ def line(deli)
     num = 1..(deli.length+1)
     new_deli = []
     deli.each do |name|
-      index = 
-      person = 
+      index = 1
+      person = "#{index}. #{name}"
+      new_deli << person
     new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
     puts "The line is currently: #{deli}"
   end 
