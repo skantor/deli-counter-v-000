@@ -13,7 +13,7 @@ def line(deli)
       person = "#{index}. #{name}"
       new_deli << person
     end 
-    new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
+    new_deli = new_deli.join(" ")
     puts "The line is currently: #{new_deli}"
   end 
 end
