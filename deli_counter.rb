@@ -7,7 +7,8 @@ def line(deli)
   if deli == []
     puts "The line is currently empty."
   else 
-    new = deli.join
+    num = deli.length
+    new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
     puts "The line is currently #{new}."
   end 
 end
