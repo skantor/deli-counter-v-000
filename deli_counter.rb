@@ -12,6 +12,7 @@ def line(deli)
       index = 1
       person = "#{index}. #{name}"
       new_deli << person
+    end 
     new = "1. #{deli[0]} 2. #{deli[1]} 3. #{deli[2]}"
     puts "The line is currently: #{deli}"
   end 
